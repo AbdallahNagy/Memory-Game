@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="test.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>memory game</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            background-color: gray;
+        }
+        #container {
+            height: 700px;
+            width: 400px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+        }
+        img {
+            height: 100px;
+            padding: 3px;
+        }
+        .imgGame {
+            height:100px;
+            width: 100px;
+        }
+        #urls {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img id="0" class="imgGame" src="./images/unknown.png" alt="">
+        <img id="1" class="imgGame" src="./images/unknown.png" alt="">
+        <img id="2" class="imgGame" src="./images/unknown.png" alt="">
+        <img id="3" class="imgGame" src="./images/unknown.png" alt="">
+        <img id="4" class="imgGame" src="./images/unknown.png" alt="">
+        <img id="5" class="imgGame" src="./images/unknown.png" alt="">
+        <img id="6" class="imgGame" src="./images/unknown.png" alt="">
+        <img id="7" class="imgGame" src="./images/unknown.png" alt="">
+        <img id="8" class="imgGame" src="./images/unknown.png" alt="">
+        <img id="9" class="imgGame" src="./images/unknown.png" alt="">
+        <img id="10" class="imgGame" src="./images/unknown.png" alt="">
+        <img id="11" class="imgGame" src="./images/unknown.png" alt="">
+    </div>
+
+    <div id="urls">
+        <img class="hiddenImg" src="./images/b.png" alt="">
+        <img class="hiddenImg" src="./images/dollar.jpg" alt="">
+        <img class="hiddenImg" src="./images/euro.jpg" alt="">
+        <img class="hiddenImg" src="./images/g.png" alt="">
+        <img class="hiddenImg" src="./images/vector.jpg" alt="">
+        <img class="hiddenImg" src="./images/yen.png" alt="">
+        <img id="unknown" src="./images/unknown.png" alt="">
+    </div>
+</body>
+</html>

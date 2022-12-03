@@ -1,0 +1,32 @@
+store urls in an array
+6 images
+
+store in a separate var
+1 unknown
+
+put the urls randomly in the images
+
+addeventlistener click
+
+if 2 images picked the same, they will be there.
+otherwise they will flip back.
+
+if all images are flipped, the player wins
+otherwise he lose and reload() the game.
+//////////////////////////
+draft:
+how to only select 2 imgs randomly
+
+-another solution is to store them in 12 length array
+and pop the chosen one
+
+-make copy of the array
+-random url from the array, store it in the actual image,
+-and then pop it out.
+-repeat
+
+///////////////////////////
+Qns
+const arrays can change it???
+->const array is a const reference,
+it doesn't define a const array
